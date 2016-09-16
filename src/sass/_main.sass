@@ -13,7 +13,6 @@
   &__logo
     width: 51.9%
     float: left
-    //line-height: 64px
     padding-top: 1.7%
     padding-bottom: 1.1%
   &__menu
@@ -34,13 +33,10 @@
     text-transform: uppercase
     text-decoration: none
   .border-white
-    border: 1px solid white
+    border: 1px solid $whitecolor
     border-radius: 8px
     padding: 7px 21px
 
-
-
-    //display: inline-block
 .content
   width: 100%
   background: url(../img/bg_slick.png) no-repeat
@@ -50,10 +46,10 @@
     width: 50%
     float: left
     text-align: center
-  &__slick-left img
-    vertical-align: middle
-    padding-top: 84px
-    padding-bottom: 84px
+    img
+      vertical-align: middle
+      padding-top: 84px
+      padding-bottom: 84px
   &__slick-right
     //display: inline-block
     width: 50%
@@ -61,14 +57,40 @@
     padding-top: 141px
     padding-right: 68px
     h1
-      color: white
+      color: $whitecolor
       font-size: 57px
       +mav-light
       text-transform: uppercase
       padding-bottom: 50px
     p
-      color: white
       +mav-light
       font-size: 16px
-      color: white
+      color: $whitecolor
       line-height: 1.74
+  &__ecllipse
+    display: inline-block
+    width: 100%
+    .slick-marker
+      display: -webkit-inline-box
+    .slick-ecllipse
+      list-style-image: url(../img/ellipse.png)
+      list-style-position: inside
+  .blue-button
+    display: inline-block
+    width: 132px
+    height: 42px
+    font-size: 14px
+    color: $whitecolor
+    border: 1px solid $bluecolor
+    background-color: $bluecolor
+    text-align: center
+    line-height: 42px
+    border-radius: 15px
+  &__price
+    display: inline-block
+    width: 100%
+    p
+      display: inline
+    ul
+      display: inline
+    
