@@ -9,18 +9,37 @@
   overflow: hidden
   padding-left: 3.6%
   padding-right: 5.9%
+  border-bottom: 2px solid #ffffff
   &__logo
-    width: 50%
+    width: 51.9%
     float: left
-    line-height: 64px
+    //line-height: 64px
+    padding-top: 1.7%
+    padding-bottom: 1.1%
   &__menu
     display: inline-block
-    width: 50%
+    width: 48.1%
     float: right
+
   .menu-item
     display: inline-block
     line-height: 4
+    padding-right: 5.1%
+    &:last-child
+      padding: 0
   .menu-link
+    +mav-light
+    font-size: 14px
+    color: rgb(255, 255, 255)
+    text-transform: uppercase
+    text-decoration: none
+  .border-white
+    border: 1px solid white
+    border-radius: 8px
+    padding: 7px 21px
+
+
+
     //display: inline-block
 .content
   width: 100%
@@ -33,7 +52,23 @@
     text-align: center
   &__slick-left img
     vertical-align: middle
+    padding-top: 84px
+    padding-bottom: 84px
   &__slick-right
     //display: inline-block
     width: 50%
     float: right
+    padding-top: 141px
+    padding-right: 68px
+    h1
+      color: white
+      font-size: 57px
+      +mav-light
+      text-transform: uppercase
+      padding-bottom: 50px
+    p
+      color: white
+      +mav-light
+      font-size: 16px
+      color: white
+      line-height: 1.74
