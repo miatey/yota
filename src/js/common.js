@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-	$('.btn-nav').on('click', function(){
-			var menu = $('.header__nav');
-			menu.toggleClass('open-nav')
-		});
+	// $('.btn-nav').on('click', function(){
+	// 		var menu = $('.header__nav');
+	// 		menu.toggleClass('open-nav')
+	// 	});
 
 	$('.js-slick').slick({
 		dots: true,
